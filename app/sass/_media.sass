@@ -1,0 +1,330 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px)
+  header, footer
+    .btn-group .btn
+      font-size: 11px
+      height: 45px
+      padding: 0 10px
+      margin: 0 20px 0 0
+
+  .contacts-box__icon
+    width: 40px
+    height: 40px
+    min-width: 40px
+
+  .phone
+    font-size: 12px
+    margin: 0 0 4px
+
+  .contacts-box
+    font-size: 12px
+    margin: 0 20px 0 0
+
+  .address
+    max-width: 170px
+
+  .logo
+    max-width: 150px
+
+  .home .image-decor
+    width: 496px
+    margin: 0 -40px 0 0
+
+  .home h1
+    font-size: 50px
+
+  .main-content
+    max-width: 500px
+
+  .form
+    label, .btn
+      max-width: 32%
+
+  .online-appraisal .label-file
+    max-width: 32%
+
+  .experience .image-decor
+    width: 500px
+
+  .callback-box .form
+    label, .btn
+      max-width: none
+
+  .callback-img
+    width: 733px
+    margin: 0 0 0 -320px
+
+  .experience-two-wrapper .box-text
+    max-width: 48%
+
+  .we-will-redeem .image-decor
+    width: 750px
+    margin: auto -300px auto -200px
+    padding: 40px 0 0
+    &:before
+      width: 80%
+      height: 70%
+      top: 0
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+  header
+    .menu
+      display: none
+
+  .btn-burger
+    display: flex
+
+  header, footer
+    .links-message
+      padding: 0
+      width: 40px
+      height: 40px
+      .btn-text
+        display: none
+      .btn-icon
+        margin: 0
+
+  header .btn-group .btn, footer .btn-group .btn
+    padding: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+
+  footer
+    padding: 10px 0
+
+  .main-content
+    max-width: none
+    width: 100%
+
+  .home
+    padding: 150px 0 40px
+    h1
+      text-align: center
+      margin: 0 auto 20px
+      font-size: 40px
+    .box-text
+      max-width: none
+      font-size: 16px
+    .image-decor
+      margin: 20px auto 0
+
+
+  .image-decor
+    margin: 20px auto 0
+    &:before
+      width: 388px
+      height: 220px
+      top: 0
+
+  .col-2
+    width: 33.3%
+
+  h2
+    margin: 0 auto 30px
+    font-size: 30px
+
+  .experience
+    .image-decor
+      width: 100%
+      margin: 20px auto 0
+      order: 1
+      padding: 30px 0 0 30px
+      &:before
+        width: 80%
+        height: 70%
+        left: 0
+        top: 0
+
+  .experience-content
+    max-width: none
+    width: 100%
+
+  .box-text
+    font-size: 14px
+
+  .p-80
+    padding: 60px 0
+
+  .online-appraisal .form
+    padding: 0
+
+  .online-appraisal
+    padding: 40px 0 30px
+
+  .callback-img
+    width: 100%
+    margin: 20px auto 0
+    order: 1
+
+  .callback-box
+    margin: 0 auto
+    padding: 30px
+
+  .callback
+    padding: 50px 0
+
+  .advantages-two__image
+    max-width: 400px
+
+  .advantages-list
+    width: calc(100% - 400px)
+
+  .advantages-two
+    padding: 50px 0
+
+  .experience-two-wrapper .box-text
+    max-width: none
+    margin: 0 0 20px
+    &:last-child
+      margin: 0
+
+  .rich-experience-img
+    max-width: none
+    margin: 20px auto 0
+    order: 1
+    width: 100%
+
+  .icon-check
+    width: 30px
+    height: 30px
+    min-width: 30px
+
+  .we-will-redeem
+    padding: 60px 0 50px
+
+  .we-will-redeem__content
+    max-width: none
+
+  .we-will-redeem .image-decor
+    width: 100%
+    margin: 30px auto 0
+
+  .list-check
+    font-size: 16px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+  .contacts-box-address
+    display: none
+
+  .home
+    .image-decor
+      width: 100%
+
+
+  .image-decor
+    &:before
+      right: 0
+      width: 80%
+      height: 70%
+
+  .form
+    label
+      max-width: 48%
+    .btn
+      max-width: 270px
+      margin: 20px auto 0
+
+  .callback-section
+    margin: -50px auto 50px
+
+  .col-2
+    width: 50%
+
+  .online-appraisal
+    .label-file
+      max-width: 48%
+      order: 1
+    .btn
+      max-width: 48%
+      order: 1
+      margin: 0
+
+  .advantages-list
+    width: 100%
+    padding: 0
+    margin: 0 0 30px
+    max-width: none
+    li
+      margin: 0 0 30px
+
+  .advantages-two__image
+    margin: 0 auto
+    order: 1
+
+  .col-3
+    width: 50%
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px)
+  .logo
+    max-width: 100px
+
+  .contacts-box__icon
+    width: 30px
+    height: 30px
+    min-width: 30px
+    padding: 7px
+
+  header .btn-group .btn, footer .btn-group .btn
+    width: 30px
+    height: 30px
+    padding: 5px
+
+  header, footer
+    .links-message .btn-icon
+      width: 100%
+      height: 100%
+
+  .contacts-box
+    margin: 0
+
+  .btn-burger
+    margin: 0 0 0 10px
+    width: 18px
+    height: 14px
+
+  .btn
+    height: 50px
+    font-size: 14px
+
+  .form
+    label
+      max-width: none
+
+  input
+    height: 50px
+    padding: 0 15px
+
+  .online-appraisal
+    .label-file
+      max-width: none
+      height: 50px
+    .btn
+      max-width: none
+
+@media only screen and (max-width: 480px)
+  .col-2, .col-3
+    width: 100%
+
+  h2
+    font-size: 26px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 420px)
+  header, footer
+    .btn-group
+      display: none
+    .logo
+      margin: 0 auto 0 0
+
+
