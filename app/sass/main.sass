@@ -271,8 +271,15 @@ button
   width: 25%
   padding: 0 10px
 
+.col-4
+  width: 33.3%
+  padding: 0 10px
+
 .mb-20
   margin-bottom: 20px
+
+.mb-30
+  margin-bottom: 30px
 
 .mb-40
   margin-bottom: 40px
@@ -948,6 +955,161 @@ footer
 .links-accent-text
   text-decoration: underline
 
+//modal
+.overlay
+  width: 100%
+  height: 100%
+  position: absolute
+  left: 0
+  top: 0
+  z-index: 3
+  background: #292929
+  opacity: .4
+
+.modal
+  position: fixed
+  left: 50%
+  top: 50%
+  transform: translate(-50%,-50%)
+  margin: 0 auto
+  z-index: 5
+  overflow: auto
+  max-width: 565px
+  width: 100%
+  text-align: center
+  h2
+    margin: 0 auto 15px
+    font-size: 24px
+
+
+.modal-wrapper
+  padding: 60px
+  background: #fff
+  box-shadow: 0px 4px 15px rgba(78, 99, 124, 0.2)
+  border-radius: 5px
+  position: relative
+
+.modal-icon
+  margin: 0 auto 20px
+  display: flex
+  align-items: center
+  justify-content: center
+  max-width: 80px
+  height: 80px
+  width: 100%
+  img
+    width: 100%
+
+.modal-close
+  margin: 40px auto 0
+  font-weight: 600
+  text-decoration: underline
+  width: fit-content
+  cursor: pointer
+
+//redemption
+.redemption
+  padding: 50px 0 0
+  margin: 0 0 147px
+  h2
+    margin: 0 auto 20px
+  .box-text
+    font-size: 17px
+    max-width: 700px
+    width: 100%
+    margin: 0 auto 38px
+    text-align: center
+  .image-decor
+    width: 100%
+    max-width: 983px
+    margin: 0 auto -77px
+    &:before
+      top: -8px
+      left: 50%
+      transform: translate(-50%,0)
+      width: 651px
+      height: 118px
+
+//why
+.why
+  padding: 0 0 70px
+  h2
+    margin: 0 auto 30px
+    max-width: 790px
+    width: 100%
+  .box-text
+    font-size: 18px
+    max-width: 1078px
+    width: 100%
+
+//stages
+.stages
+  padding: 70px 0 40px
+  h2
+    margin: 0 auto 40px
+  .image-decor
+    width: 536px
+    padding: 51px 0 0
+    margin: 20px -60px -114px 0
+    float: right
+    &:before
+      top: 0
+      right: 60px
+      width: 387px
+      height: 237px
+
+.stages-box
+  background: #fff
+  border-radius: 5px
+  height: 100%
+  padding: 31px 24px 31px 0
+  display: flex
+  align-items: center
+  box-shadow: 0 4px 15px rgba(78, 99, 124, 0.2)
+  &__number
+    margin: 0 15px 0 -15px
+    font-size: 150px
+    font-weight: bold
+    color: $accent
+
+//documents
+.documents
+  padding: 84px 0 40px
+  h2
+    margin: 0 auto 15px
+  .box-text
+    font-size: 18px
+    text-align: center
+    width: 100%
+
+.documents-wrapper
+  width: 100%
+  display: flex
+  align-items: stretch
+  flex-wrap: wrap
+  justify-content: center
+  margin: 40px 0 0
+
+.documents-box
+  max-width: 48%
+  background: #fff
+  border-radius: 5px
+  box-shadow: 0px 4px 15px rgba(78, 99, 124, 0.2)
+  margin: 0 20px 30px 0
+  padding: 40px 30px
+  font-size: 18px
+  line-height: 165%
+
+  h3
+    margin: 0 0 28px
+    font-size: 24px
+    display: flex
+    align-items: center
+  &:last-child
+    margin: 0 0 30px
+
+.documents-box__icon
+  margin: 0 20px 0 0
 
 
 @import "media"
