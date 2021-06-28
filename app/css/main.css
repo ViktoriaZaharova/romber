@@ -710,7 +710,9 @@ header {
   background: #fff;
   border-radius: 5px;
   padding: 40px 10px;
-  text-align: center; }
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 15px rgba(78, 99, 124, 0.2);
+          box-shadow: 0px 4px 15px rgba(78, 99, 124, 0.2); }
   .advantages-box__icon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1382,6 +1384,41 @@ footer {
       font-weight: 700;
       color: #FFB11B; }
 
+.main-404 {
+  padding: 164px 0 0; }
+
+.error-section {
+  padding: 100px 0; }
+  .error-section h2 {
+    text-align: left;
+    font-weight: bold;
+    margin: 0 0 20px;
+    font-size: 34px; }
+  .error-section .btn {
+    margin: 40px 0 0; }
+  .error-section .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.error-section__img {
+  width: calc(100% - 565px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.error-section__content {
+  max-width: 565px; }
+  .error-section__content .box-text {
+    max-width: 418px;
+    width: 100%; }
+
 @media only screen and (max-width: 1200px) {
   header .btn-group .btn, footer .btn-group .btn {
     font-size: 11px;
@@ -1631,7 +1668,24 @@ footer {
   .why-price .box-text {
     margin: 0 0 40px; }
   .mb-50 {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .error-section__img {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto 0; }
+  .error-section {
+    padding: 50px 0; }
+    .error-section h2 {
+      font-size: 30px;
+      text-align: center; }
+    .error-section .box-text {
+      max-width: none;
+      text-align: center; }
+    .error-section .btn {
+      margin: 20px auto 0; }
+  .error-section__content {
+    max-width: none;
+    width: 100%; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 860px) {
